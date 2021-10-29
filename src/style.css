@@ -1,0 +1,33 @@
+#main {
+  width: 40vw;
+}
+
+button {
+  padding: 10px;
+  outline: none;
+  cursor: pointer;
+  border: 2px solid lightblue;
+  background-color: #fff;
+}
+button:hover {
+  background-color: lightblue;
+}
+
+.list {
+  width: 700px;
+  height: 100px;
+  border: 2px solid lightskyblue;
+  gap: 5px;
+  padding: 5px;
+  list-style: none;
+  display: flex;
+  text-align: center;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5%;
+  background-color: rgb(104, 180, 180);
+}
